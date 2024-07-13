@@ -1,7 +1,7 @@
 //Create a const variable and assign a boolean value
 
 
-//  task 3
+//  Task 3
 
 const istrue = true;
 console.log(istrue);
