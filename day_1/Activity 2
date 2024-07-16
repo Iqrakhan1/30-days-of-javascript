@@ -3,5 +3,5 @@
 
 //  Task 3
 
-const istrue = true;
-console.log(istrue);
+const checkistrue = true;
+console.log(checkistrue);
