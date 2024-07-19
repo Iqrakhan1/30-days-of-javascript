@@ -12,12 +12,14 @@ book.methodcalling = function methodcalling() {
     return `Book "${this.title}" by ${this.author}`;
 };
 
-console.log(book.methodcalling());  // Logs: Book "Achieve Your Dream" by Ratore
+console.log(book.methodcalling());  
+
+
 
 // Task 4: Add a method to the book object that takes a parameter (year) and updates the book's year property, then log the updated object
 book.methodwithparameter = function methodwithparameter(newYear) {
     this.year = newYear;
-    return this;  // Return the updated object to log it
+    return this;  
 };
 
-console.log(book.methodwithparameter(2023));  // Logs the updated book object with the new year
+console.log(book.methodwithparameter(2023));  
