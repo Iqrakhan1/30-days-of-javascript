@@ -15,19 +15,18 @@ let num2 = 56;
 
 //Task 2 Subtact 2 number and console log
 
-let num1 = 34;
-let num2 = 23;
+let num3 = 34;
+let num4 = 23;
  
- let sub = num1 - num2;
+ let sub = num3 - num4;
  
- console.log(`Substration of ${num1} and ${num2} is =  ${sub}`);
+ console.log(`Substration of ${num3} and ${num4} is =  ${sub}`);
 
 
 
 //Task 3 multiply 2 number and console log
 
-let num1 = 4;
-let num2 = 23;
+
  
 let multiple = num1 * num2;
  
@@ -37,8 +36,7 @@ console.log(`Multiple of ${num1} and ${num2} is =  ${multiple}`);
 
 //Task 4 Divide 2 number and console log
 
-let num1 = 54;
-let num2 = 9;
+
  
 let div = num1 / num2;
  
@@ -48,8 +46,7 @@ console.log(`Division of ${num1} and ${num2} is =  ${div}`);
 
 //Task 5 Reminder 2 number and console log
 
-let num1 = 59;
-let num2 = 9;
+
  
 let rem = (num1 % num2);
  

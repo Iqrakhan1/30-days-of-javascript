@@ -29,8 +29,6 @@ else {
 
 //  Task 9  campare using >= and <= and login result 
 
-let num1 = 15 ; 
-let num2 = 12 ;
 
 if(num1>=num2){
     console.log( "num1 is greater or equal to num2 = "+num1);
@@ -42,8 +40,6 @@ else {
 
 // < num 1 lasser then num 2 
 
-let num3 = 25 ; 
-let num4 = 18 ;
 
 if(num3<=num4){
     console.log( "num3 is lasser or equal num4 = " + num3);
