@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 4: Form Events</title>
+
+    <style>
+        form {
+
+            width: 300px;
+            padding: 10px;
+            margin: auto;
+            border: 2px solid red;
+            display: grid;
+
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input,
+        button {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+
+        button {
+            background-color: rgb(242, 71, 71);
+            font-size: 23px;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Activity 4: Form Events</h1>
+    <!-- Task 7: Add a submit event listener to a form that prevents the default submission and logs the form data to the console. -->
+
+    <form id="myForm">
+        <h1>Form</h1>
+        <input type="text" name="name" id="name" placeholder="Enter your name" />
+
+        <br>
+        <input type="email" name="email" id="email" placeholder="Email" />
+
+        <br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <select id="mySelect">
+        <option>Select course</option>
+        <option>BE.</option>
+        <option>Btech.</option>
+        <option>ME.</option>
+        <option>MTech.</option>
+        <option>BCA</option>
+        <option>MBA.</option>
+        <option>Other</option>
+    </select>
+    <p id="para">Select content show here</p>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
