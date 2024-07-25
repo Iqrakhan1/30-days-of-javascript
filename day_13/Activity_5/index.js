@@ -1,4 +1,4 @@
-// Activity 5: Module Bundling (Optional)
+// Activity 5: Module Bundling (Optionals)
 
 // Task 8: Use a module bundler like Webpack or Parcel to bundle multiple JavaScript files into a single file.
 
