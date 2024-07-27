@@ -16,13 +16,22 @@ class Person {
 }
 
 const person1 = new Person("Iqra Khan", 22);
-person1.greet(); // Log the greeting message
+person1.greet();
+
+// Log the greeting message
 
 // Student class extending Person
 class Student extends Person {
   constructor(name, age, studentId) {
     super(name, age);
     this.studentId = studentId;
+  }
+
+  // Task 4: Override the greeting method in the Student class to include the student ID in the message. Log the overridden greeting message.
+  greet() {
+    console.log(
+      `my name is ${this.name} and i am ${this.age} year old my student Id is ${this.studentId}`
+    );
   }
 
   getStudentId() {
@@ -32,3 +41,5 @@ class Student extends Person {
 
 const student1 = new Student("Student 1", 22, "R298765");
 console.log(student1.getStudentId()); // Log the student ID
+
+student1.greet();
