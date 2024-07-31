@@ -9,7 +9,7 @@ console.log(matches7); // ["Hello"]
 // Task 8: Write a regular expression to match a word only if it is at the end of a string. Log the matches
 
 const regex8 = /\w+.$/;
-const str = "This is check tha last word od string.";
+const str = "This is check tha last word of string.";
 
 const matches8 = str.match(regex8);
 console.log(matches8);
